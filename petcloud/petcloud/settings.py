@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'petcloud.wsgi.application'
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-'NAME': 'petcloud',
+'NAME': 'postgres1',
 'USER': 'postgres',
-'PASSWORD': 'Access777',
+'PASSWORD': 'password',
 'HOST': '127.0.0.1',
 'PORT': '5432'
 }

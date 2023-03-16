@@ -11,7 +11,7 @@ class Files(models.Model):
     name = models.CharField(max_length=60)
     description = models.TextField(max_length=600, null=True, blank=True)
     media = models.FileField(null=True, blank=True)
-    user = models.ManyToManyField(User, on_delete = models.CASCADE)
+    user = models.ManyToManyField(User)
 
     def __str__(self):
         return self.name
