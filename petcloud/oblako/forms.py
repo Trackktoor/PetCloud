@@ -5,3 +5,4 @@ class FilesForm(ModelForm):
     class Meta:
         model = Files
         fields = '__all__'
+        
